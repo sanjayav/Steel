@@ -8,7 +8,7 @@
 
 ---
 
-## 🚀 Product Overview
+## Product Overview
 
 The steel industry is transitioning to net-zero, but verifying claims is complex. **Data Steel Passport** solves this by creating an immutable, digital twin for every steel coil produced.
 
@@ -20,22 +20,22 @@ The steel industry is transitioning to net-zero, but verifying claims is complex
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 1. The Ultimate Green Passport (`/passport`)
+### 1. The Ultimate Green Passport (/passport)
 A public-facing, mobile-optimized digital identity for steel products.
 *   **Cinematic Hero Section**: Immersive visuals showcasing the physical product.
-*   **Live Sustainability Metrics**: Real-time data on CO₂ intensity, recycled content, and renewable energy mix.
+*   **Live Sustainability Metrics**: Real-time data on CO2 intensity, recycled content, and renewable energy mix.
 *   **Trust Badges**: Animated, verified badges for Climate Rating (A+), Circularity, and Standards.
 *   **QR & Blockchain Verification**: Instant authenticity checks via dynamic QR codes and on-chain transaction hashes.
 
-### 2. Value Chain Traceability (`/traceability`)
+### 2. Value Chain Traceability (/traceability)
 An enterprise-grade map visualizing the complete product journey.
 *   **Global Supply Chain Map**: Interactive Leaflet map tracking movement from mines to OEMs.
 *   **Chain of Custody Timeline**: Scrollable event log of every transformation, shipment, and audit.
 *   **ESG Analytics**: Detailed breakdown of Scope 1, 2, & 3 emissions and actor performance.
 
-### 3. Technical Data Sheet (`/technical`)
+### 3. Technical Data Sheet (/technical)
 A comprehensive engineering resource for procurement and quality teams.
 *   **Material Composition**: Periodic table visualization of chemical elements.
 *   **Mechanical Properties**: Precision bar charts for Yield Strength, Tensile Strength, and Elongation.
@@ -43,7 +43,7 @@ A comprehensive engineering resource for procurement and quality teams.
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 Built with a modern, performance-first stack designed for scalability and developer experience.
 
@@ -56,7 +56,7 @@ Built with a modern, performance-first stack designed for scalability and develo
 
 ---
 
-## ⚡ Getting Started
+## Getting Started
 
 Follow these steps to set up the project locally.
 
@@ -87,7 +87,7 @@ Follow these steps to set up the project locally.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
 src/
@@ -107,7 +107,7 @@ src/
 
 ---
 
-## 🎨 Design System
+## Design System
 
 Our design philosophy centers on **"Industrial Precision meets Digital Future"**.
 
@@ -117,12 +117,12 @@ Our design philosophy centers on **"Industrial Precision meets Digital Future"**
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
-  <p>Built with 💚 by the Aeiforo Digital Team</p>
+  <p>Built with by the Aeiforo Digital Team</p>
 </div>
