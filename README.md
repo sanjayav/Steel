@@ -1,196 +1,128 @@
-# Green Steel Passport Dashboard
+# Data Steel Passport — The Future of Sustainable Steel Verification
 
-A comprehensive UI/UX implementation for tracking and visualizing steel product sustainability metrics, regulatory compliance, and value chain transparency.
+![Status](https://img.shields.io/badge/Status-Production%20Ready-emerald)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Tech](https://img.shields.io/badge/Tech-React%20%7C%20Vite%20%7C%20Tailwind-0ea5e9)
 
-## 🎨 Design System
+**Data Steel Passport** is a cutting-edge Digital Product Passport (DPP) platform designed to bring transparency, trust, and premium value to the green steel supply chain. By combining blockchain-backed verification with a high-fidelity, cinematic user experience, we empower manufacturers to showcase their sustainability achievements and buyers to procure with confidence.
 
-### Theme
-- **Dark industrial steel aesthetics** with neon-green and cyan accents
-- Brushed steel texture patterns in headers
-- Glass-matte card blend with soft micro-animations
+---
 
-### Colors
-- Background: `#0C1117` (deep graphite)
-- Cards: `#161C23` (matte steel)
-- Dividers: `#1F2933`
-- Primary: `#00D48E` (neon green)
-- Secondary: `#4ED0FF` (cyan)
+## 🚀 Product Overview
 
-### Typography
-- Headings: Inter SemiBold
-- Body: Inter Regular
-- Numbers: Inter ExtraBold with wide letter-spacing
+The steel industry is transitioning to net-zero, but verifying claims is complex. **Data Steel Passport** solves this by creating an immutable, digital twin for every steel coil produced.
 
-### Animations
-- Hover effects: 6px lift with shadow
-- Transitions: 0.2s ease
-- Micro-animations throughout
+### Core Value Proposition
+*   **Transparency**: End-to-end traceability from mining to recycling.
+*   **Trust**: Blockchain-anchored data points and third-party certifications (TÜV SÜD, DNV).
+*   **Premium Experience**: A "Tesla-like" marketing interface that elevates the perceived value of green products.
+*   **Compliance**: Ready for EU Digital Product Passport (DPP), CBAM, and ESPR regulations.
 
-## 📊 Dashboards
+---
 
-### 1. ESPR & DPP Compliance Overview
-Clean compliance cockpit with:
-- Top KPI ribbon (PCF, Recycled %, DPP Status, etc.)
-- Large compliance score gauge
-- Checklist grid with status badges
-- ESPR-Ready shield badge
+## ✨ Key Features
 
-### 2. Value Chain & Traceability Map
-Futuristic supply chain visualization:
-- Horizontal flow timeline with 12 stages
-- Animated glow paths between stages
-- Clickable stage cards with detail drawer
-- EPCIS event history
+### 1. The Ultimate Green Passport (`/passport`)
+A public-facing, mobile-optimized digital identity for steel products.
+*   **Cinematic Hero Section**: Immersive visuals showcasing the physical product.
+*   **Live Sustainability Metrics**: Real-time data on CO₂ intensity, recycled content, and renewable energy mix.
+*   **Trust Badges**: Animated, verified badges for Climate Rating (A+), Circularity, and Standards.
+*   **QR & Blockchain Verification**: Instant authenticity checks via dynamic QR codes and on-chain transaction hashes.
 
-### 3. Carbon, Energy & Climate Performance
-Technical analytical dashboard:
-- PCF waterfall chart
-- Energy mix donut chart
-- Production route badge
-- 5-level data quality ladder
-- Climate performance thermometer
+### 2. Value Chain Traceability (`/traceability`)
+An enterprise-grade map visualizing the complete product journey.
+*   **Global Supply Chain Map**: Interactive Leaflet map tracking movement from mines to OEMs.
+*   **Chain of Custody Timeline**: Scrollable event log of every transformation, shipment, and audit.
+*   **ESG Analytics**: Detailed breakdown of Scope 1, 2, & 3 emissions and actor performance.
 
-### 4. Material, Circularity & Recycled Content
-Circular economy focus:
-- Periodic table-style composition grid
-- Circularity gauge (0-10)
-- Recycled content breakdown
-- By-product utilization bars
+### 3. Technical Data Sheet (`/technical`)
+A comprehensive engineering resource for procurement and quality teams.
+*   **Material Composition**: Periodic table visualization of chemical elements.
+*   **Mechanical Properties**: Precision bar charts for Yield Strength, Tensile Strength, and Elongation.
+*   **Performance Radar**: Comparative analysis against industry standards (EN 10025).
 
-### 5. Durability, Reparability & Use-Phase
-Engineering QC dashboard:
-- Vertical mechanical property test bars
-- Corrosion resistance classes map
-- Lifetime performance curve
-- Repairability index (0-10)
+---
 
-### 6. End-of-Life & Substances of Concern
-Safety and circular pathways:
-- SoC compliance flag panel
-- Step-by-step dismantling guide
-- Recycling route flow
-- Recovery vs downcycling meter
+## 🛠️ Technology Stack
 
-### 7. Data Quality, VCs & Chain-of-Custody
-Blockchain-style verification:
-- 5-level data quality ladder
-- Verifiable credentials (hexagonal tiles)
-- Chain-of-custody timeline
-- Audit summary cards
+Built with a modern, performance-first stack designed for scalability and developer experience.
 
-### 8. Documents & Certifications
-Document vault:
-- Searchable document grid
-- Type and site filters
-- Validity status badges
-- Preview drawer with metadata
+*   **Core**: [React 18](https://reactjs.org/) (TypeScript) + [Vite](https://vitejs.dev/)
+*   **Styling**: [Tailwind CSS](https://tailwindcss.com/) + Custom Design System (Glassmorphism, Neon Accents)
+*   **Animations**: [Framer Motion](https://www.framer.com/motion/) for fluid transitions and micro-interactions.
+*   **Visualization**: [Recharts](https://recharts.org/) for data analytics & [React Leaflet](https://react-leaflet.js.org/) for mapping.
+*   **Icons**: [Lucide React](https://lucide.dev/) for consistent, crisp iconography.
+*   **Utilities**: `clsx`, `tailwind-merge` for robust class handling.
 
-### 9. Green Premium / Commercial View
-Business-centric value storytelling:
-- Value proposition hero section
-- Carbon savings calculator
-- ESPR advantage meter
-- Competitive comparison charts
+---
 
-## 🚀 Getting Started
+## ⚡ Getting Started
+
+Follow these steps to set up the project locally.
 
 ### Prerequisites
-- Node.js 18+ and npm
+*   Node.js (v16 or higher)
+*   npm or yarn
 
 ### Installation
 
-1. Install dependencies:
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/sanjayav/Steel.git
+    cd Steel
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open the app**
+    Visit `http://localhost:5173` (or the port shown in your terminal) to view the application.
+
+---
+
+## 📂 Project Structure
+
 ```bash
-npm install
+src/
+├── components/         # Reusable UI components
+│   ├── ui/            # Base UI primitives (Buttons, Badges)
+│   ├── PremiumMetricCard.tsx  # High-fidelity data cards
+│   ├── TrustBadges.tsx        # Verified certification badges
+│   └── ...
+├── pages/             # Main application views
+│   ├── GreenSteelPassport.tsx # Public marketing page
+│   ├── Dashboard2.tsx         # Traceability map
+│   ├── TechnicalData.tsx      # Engineering data
+│   └── ...
+├── index.css          # Global styles & Tailwind directives
+└── App.tsx            # Routing and layout configuration
 ```
 
-2. Start development server:
-```bash
-npm run dev
-```
+---
 
-The application will automatically open at `http://localhost:3000`
+## 🎨 Design System
 
-3. Build for production:
-```bash
-npm run build
-```
+Our design philosophy centers on **"Industrial Precision meets Digital Future"**.
 
-4. Preview production build:
-```bash
-npm run preview
-```
+*   **Colors**: Deep Obsidian (`#050505`) backgrounds with Emerald (`#10B981`) and Electric Blue (`#3B82F6`) accents.
+*   **Typography**: Clean, sans-serif fonts optimized for readability and data density.
+*   **Effects**: Extensive use of backdrop blur, subtle gradients, and glowing borders to create depth.
 
-## 🛠️ Tech Stack
+---
 
-- **React 18** - UI framework
-- **TypeScript** - Type safety
-- **Vite** - Build tool and dev server
-- **Tailwind CSS** - Utility-first styling
-- **Framer Motion** - Animations
-- **Recharts** - Data visualization
-- **React Router** - Navigation
-- **Lucide React** - Icon system
+## 📄 License
 
-## 📁 Project Structure
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```
-steel passport/
-├── src/
-│   ├── components/          # Reusable UI components
-│   │   ├── Layout.tsx       # Main layout with sidebar
-│   │   ├── KPITile.tsx      # KPI metric cards
-│   │   ├── Card.tsx         # Base card component
-│   │   ├── CircularGauge.tsx
-│   │   ├── ProgressBar.tsx
-│   │   └── StatusBadge.tsx
-│   ├── pages/               # Dashboard pages
-│   │   ├── Dashboard1.tsx   # ESPR & DPP Compliance
-│   │   ├── Dashboard2.tsx   # Traceability Map
-│   │   ├── Dashboard3.tsx   # Carbon & Energy
-│   │   ├── Dashboard4.tsx   # Material & Circularity
-│   │   ├── Dashboard5.tsx   # Durability
-│   │   ├── Dashboard6.tsx   # End-of-Life
-│   │   ├── Dashboard7.tsx   # Data Quality & VCs
-│   │   ├── Dashboard8.tsx   # Documents
-│   │   └── Dashboard9.tsx   # Commercial View
-│   ├── App.tsx              # Root component
-│   ├── main.tsx             # Entry point
-│   └── index.css            # Global styles
-├── index.html
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-├── tailwind.config.js
-└── README.md
-```
+---
 
-## 🎯 Key Features
-
-- **Responsive Design** - Works on desktop, tablet, and mobile
-- **Dark Theme** - Industrial steel aesthetic throughout
-- **Smooth Animations** - Framer Motion powered transitions
-- **Interactive Components** - Hover effects, click actions, drawers
-- **Data Visualization** - Charts, gauges, and custom visualizations
-- **Type Safety** - Full TypeScript implementation
-- **Modern Stack** - Latest React patterns and best practices
-
-## 🌟 Design Highlights
-
-- Neon glow effects on primary elements
-- Brushed steel texture patterns
-- Glass-morphism card effects
-- Micro-animations on hover
-- Color-coded status indicators
-- Hexagonal badges for certifications
-- Blockchain-inspired verification UI
-- Elegant gradient overlays
-
-## 📝 License
-
-This project is proprietary and confidential.
-
-## 👥 Credits
-
-Designed and developed for Tata Steel's Green Steel Passport initiative.
-
+<div align="center">
+  <p>Built with 💚 by the Aeiforo Digital Team</p>
+</div>
